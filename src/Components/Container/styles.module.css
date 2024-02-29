@@ -1,0 +1,21 @@
+:root {
+    --default: #8a2be2;
+    --active: #2ce22c;
+    --neutral: black;
+}
+
+.container {
+    background-color: var(--default);
+
+    :hover {
+        background-color: var(--active);        
+    }
+}
+
+.success {
+    color: blue;
+}
+
+.neutral {
+    color: var(--neutral);
+}
